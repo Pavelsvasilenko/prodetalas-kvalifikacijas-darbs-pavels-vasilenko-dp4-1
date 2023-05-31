@@ -1,0 +1,516 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    width: 100%;
+    background-color: #353839;
+    padding: 0em 3em;
+    height: auto;
+    z-index: 9999;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.text-logo {
+    font-size: 24px;
+    color: #fff;
+}
+
+.ul-links {
+    display: flex;
+    padding: 20px 20px;
+    gap: 1em;
+}
+
+.a-links {
+    color: #fff;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+
+.a-links:hover {
+    background-color: #acacac;
+    color: #000;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+nav ul.active {
+    left: 0;
+}
+
+.activated {
+    background-color: #acacac;
+    color: #000;
+}
+
+/* index page */
+
+.under-nav {
+    background-image: url(../img/index-section-image.jpg);
+    height: 500px;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.under-nav-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;    
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.container {
+    width: 100%;
+    margin: 45px 0px;
+}
+
+.content {
+    margin: 0px auto;
+    max-width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.logo-brand-img {
+    margin: 10px 20px;
+}
+
+.outer-text {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #353839;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.piedavajums {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.piedavajums-info {
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.btn {
+    font-size: 20px;
+    padding: 7px 5px;
+    color: #fff;
+    background-color: #353839;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #acacac;
+    color: #000;
+    transition: 1s;
+}
+
+.piedavajums-img {
+    margin: 0px 20px;
+}
+
+/* veikals */ 
+
+.veikals-kategorijas-container {
+    margin: 45px 0px;
+    width: 100%;
+}
+
+.veikals-kategorijas-content {
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.veikals-kategorijas-header {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.form-for-categories {
+    display: flex;
+    align-items: center;
+}
+
+.kategorijas-check {
+    margin: 0px 10px;
+}
+
+.range-input-veikals {
+    display: flex;
+}
+
+/* pagination bar */
+
+.pagination-content {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-content ul {
+    display: flex;
+    gap: 2em;   
+}
+
+.pagination-content a {
+    color: #000;
+}
+
+
+/* groza */
+
+.groza-device-name, .groza-device-cena {
+    font-size: 20px;
+}
+
+.groza-products {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 20px;
+}
+
+.groza-device-info{
+    margin-left: 10px;
+}
+
+.groza-header {
+    background-color: #353839;
+    color: #fff;
+    padding: 10px 7px;
+    font-size: 20px;
+}
+
+.groza-device-cena {
+    margin: 6px 0px;
+}
+
+.groza-input-number-btn {
+    font-size: 20px;
+    width: 50px;
+    border: 1px solid #353839;
+    outline: none;
+    padding: 6px 2px;
+}
+
+.groza-sum {
+    font-size: 20px;
+}
+
+.groza-outer-text {
+    border: 1px solid #353839;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.groza-kopeja-summa {
+    font-size: 20px;
+}
+
+/* single product */
+
+.preces-photos {
+    width: 40%;
+}
+
+.device-information {
+    width: 60%;
+}
+
+.preces-photos > .main-photo {
+    max-width: 80%;
+}
+
+.category {
+    opacity: .5;
+    font-size: 12px;
+}
+
+.middle {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.middle > p {
+    margin: 10px 0px;   
+}
+
+.secondary-photo {
+    cursor: pointer;
+}
+
+.singleproduct-input-number-daudzums {
+    width: 50px;
+    font-size: 20px;
+    padding: 5px 5px;
+    outline: none;
+}
+
+/* Konta */
+
+.lietotaja-dati {
+    text-align: center;
+    font-size: 20px;
+}
+
+.lietotaja-dati > a {
+    color: orange;
+}
+
+.konta-outer-text {
+    max-width: 1300px;
+    margin: 45px auto;
+}
+
+.konta-change-password-input {
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #353839;
+    margin: 0px 10px;
+    padding: 2px 5px;
+}
+
+.konta-change-password-btn {
+    margin: 10px 0px;
+    display: block;
+}
+
+/* kontakti */
+
+.contact-outer-text {
+    margin: 45px 0px;
+}
+
+.contact-info{
+    font-size: 20px;
+}
+
+.contact-info a {
+    color: orange;
+}
+
+/* checkout */
+
+.checkout-header{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;    
+}
+
+.checkout-input-field {
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 20px;
+    padding: 0px 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #353839;
+}
+
+.checkout-btn {
+    width: 100%;
+    padding: 10px 10px;
+}
+
+/* login */
+
+.auth-header {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.auth-input-field {
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 20px;
+    padding: 0px 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #353839;
+}
+
+.auth-input-btn {
+    font-size: 20px;
+    padding: 7px 5px;
+    color: #fff;
+    background-color: #353839;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.auth-input-btn:hover {
+    background-color: #acacac;
+    color: #000;
+    transition: 1s;
+}
+
+/* other */
+
+.noformesana-kopeja-summa {
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.apmaksa-content {
+    display: block;
+}
+
+.apmaksas-status {
+    font-size: 20px;
+    text-align: center;
+}
+
+.apmaksas-summa {
+    text-align: center;
+}
+
+.error-message {
+    font-size: 20px;
+    color: red;
+}
+
+.help-message-register {
+    font-size: 20px;
+}
+
+.help-message-register a {
+    color: orange;
+}
+
+.success {
+    color: lawngreen;
+}
+
+.apmaksat-form {
+    display: block;
+}
+
+/* admin */
+
+.btn-change {
+    color: orange;
+}
+
+.btn-delete {
+    color: red;
+}
+
+.modify-input, .modify-btn {
+    width: 100%;   
+    margin: 10px 0px;
+    padding: 10px 5px; 
+    font-size: 20px;
+}
+
+.modify-input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #353839;
+}
+
+.modify-btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #353839;
+    color: #fff;
+}
+
+.modify-btn:hover {
+    background-color: #acacac;
+    color: #000;
+    transition: 1s;
+}
+
+.piev-preces-input, .pievienotbtn {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.piev-preces-input {
+    border-bottom: 1px solid #353839;
+}
+
+.pievienotbtn {
+    background-color: #353839;
+    color: #fff;    
+    cursor: pointer;
+}
+
+.pievienotbtn:hover {
+    background-color: #acacac;
+    color: #000;
+    transition: 1s;
+}
+
+
+/* optimizacija */
+
+@media only screen and (max-width: 1000px) {
+    #hamburger-menu {
+        display: block;
+        color: #fff;
+    }
+
+    .ul-links {
+        background-color: #353839;
+        position: fixed;
+        left: -100vw;
+        top: 39px;
+        width: 100vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transition: 1s;
+        gap: 0;
+        z-index: 1;
+    }
+    
+    .text-logo { 
+        padding: 10px 10px;
+    }
+
+}
